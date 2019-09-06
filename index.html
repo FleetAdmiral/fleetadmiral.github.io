@@ -26,6 +26,15 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<script>
+</script>
+
   <body>
 
 	  <nav class="navbar navbar-expand-lg navbar-dark  bg-dark ftco-navbar-light" id="ftco-navbar" style="background-color: black;">
@@ -37,12 +46,12 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link" style="color: white">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link" style="color: white">About</a></li>
-	        	<li class="nav-item"><a href="work.html" class="nav-link" style="color: white">Work</a></li>
-	        	<li class="nav-item"><a href="pricing.html" class="nav-link" style="color: white">Pricing</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link" style="color: white">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link" style="color: white">Contact</a></li>
+	        	<li class="nav-item active"><a class="nav-link" style="color: white" id="home" href="#home_id">Home</a></li>
+	        	<li class="nav-item"><a  class="nav-link" style="color: white" href="#about_id">About</a></li>
+	        	<li class="nav-item"><a   class="nav-link" style="color: white" href="#work_id">Work</a></li>
+	        	<li class="nav-item"><a   class="nav-link" style="color: white"  href="#pricing_id">Pricing</a></li>
+	        	<li class="nav-item"><a   class="nav-link" style="color: white"  href="#blog_id">Blog</a></li>
+	          <li class="nav-item"><a   class="nav-link" style="color: white"  href="#contact_id">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -54,7 +63,7 @@
     		<div class="bg-after d-flex align-self-stretch"></div>
     		<div class="text">
     			<div class="desc pt-5">
-	    			<span class="subheading">Welcome</span>
+	    			<span class="subheading" name="home_id">Welcome</span>
 	    			<h1 class="mb-3">Every dataset has something to say.</h1>
 	    			<h2 class="mb-4">We just help you listen.</h2>
 	    			<!--<p><a href="#" class="btn-custom py-3 pr-2">Get in touch</a></p>-->
@@ -68,7 +77,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section">
+    <section class="ftco-section" id="about_id">
       <div class="container">
         <div class="row mb-5 pb-3">
           <div class="heading-section ftco-animate ">
@@ -90,7 +99,7 @@ We assure you, your data is in good hands!</h3>
 					<div class="col-md-7 wrap-about pt-md-5 ftco-animate">
 	          <div class="heading-section mb-5 pt-5 pl-md-5">
 	          	<div class="pr-md-5 mr-md-5 text-md-right">
-		            <h2 class="mb-4" style="color: white">What We Can Do for You</h2>
+		            <h2 class="mb-4" style="color: white" name="work_id">What We Can Do for You</h2>
 	            </div>
 	          </div>
 	          <div class="pr-md-3 pr-lg-5 pl-md-5 mr-md-5 mb-5">
@@ -195,7 +204,7 @@ We assure you, your data is in good hands!</h3>
     	<div class="container-fluid px-4">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-lg-6 heading-section text-center ftco-animate">
-          	<span class="subheading" style="font-size: 150%;padding-bottom: 20px;">Clientele</span>
+          	<span class="subheading" style="font-size: 150%;padding-bottom: 20px;" id="work_id">Clientele</span>
             <p style="font-size: 120%">Our Data Scientists have worked on projects by major Fortune 500 companies including:</p>
           </div>
         </div>
@@ -235,11 +244,11 @@ We assure you, your data is in good hands!</h3>
     	</div>
     </section>
 
-		<section class="ftco-section">
+		<section class="ftco-section" id="blog_id">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <span class="subheading" style="font-size: 150%;padding-bottom: 20px;">Blog</span>
+            <span class="subheading" style="font-size: 150%;padding-bottom: 20px;" >Blog</span>
             <p style="font-size: 120%">Coming Soon!</p>
           </div>
         </div>
@@ -250,8 +259,8 @@ We assure you, your data is in good hands!</h3>
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Pricing Plans</span>
-            <h2 class="mb-3">Our Best Pricing</h2>
+          	<span class="subheading" id="pricing_id">Monthly Subscription</span>
+            <h2 class="mb-3">Pricing Plans</h2>
           </div>
         </div>
     		<div class="row">
